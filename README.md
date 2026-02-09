@@ -44,7 +44,7 @@ limitations under the License.
 <!-- eslint-disable id-length -->
 
 ```javascript
-import isAlmostSameValueFloat64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-almost-same-value-float64array@esm/index.mjs';
+import isAlmostSameValueFloat64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-almost-same-value-float64array@v0.1.1-esm/index.mjs';
 ```
 
 #### isAlmostSameValueFloat64Array( v1, v2, maxULP )
@@ -95,7 +95,7 @@ bool = isAlmostSameValueFloat64Array( x, [ 1.0, 2.0 ], 1 );
 <script type="module">
 
 import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@esm/index.mjs';
-import isAlmostSameValueFloat64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-almost-same-value-float64array@esm/index.mjs';
+import isAlmostSameValueFloat64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-almost-same-value-float64array@v0.1.1-esm/index.mjs';
 
 var x = new Float64Array( [ 1.0, 2.0, 3.0 ] );
 var y = new Float64Array( [ 1.0, 2.0, 3.0 ] );
